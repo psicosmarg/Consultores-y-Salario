@@ -45,3 +45,16 @@ if os.path.exists(ruta_csv):
 
 else:
     st.error("⚠️ Archivo CSV no encontrado. Registra datos primero.")
+    # --- BOTÓN DE DESCARGA ---
+st.divider() # Una línea divisoria estética
+st.subheader("📥 Exportar Datos")
+
+# Convertimos el DataFrame filtrado a un archivo CSV en memoria
+csv_datos = df_filtrado.to_csv(index=False).encode('utf-8-sig')
+
+st.download_button(
+    label="Descargar datos filtrados (CSV)",
+    data=csv_datos,
+    file_name='reporte_consultores_filtrado.csv',
+    mime='text/csv',
+)
