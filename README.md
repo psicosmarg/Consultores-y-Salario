@@ -1,24 +1,30 @@
-# 🤖 Sistema Automatizado de Gestión de Talento (Python & Pandas)
+# 🚀 Sistema de Automatización de Nómina y Analítica de Talento
 
-Este proyecto es una herramienta profesional desarrollada en **Python** diseñada para automatizar el ciclo completo de gestión de datos de consultoría: desde la captura validada hasta la generación de reportes ejecutivos con analítica visual.
+Este proyecto es una solución integral de **Ingeniería Financiera y de Comportamiento** diseñada para automatizar el ciclo de vida de los datos de consultoría. El sistema transforma datos brutos en decisiones estratégicas mediante un pipeline de datos (ETL) completamente automatizado.
 
-## 🚀 Capacidades del Sistema
-- **Captura Inteligente:** Registro de consultores con validación de rangos (salarios y experiencia) para evitar datos erróneos (GIGO).
-- **Procesamiento Masivo (ETL):** Uso de la librería **Pandas** para limpieza de datos, normalización de nombres y eliminación de duplicados.
-- **Analítica Visual:** Generación automática de gráficos comparativos con **Matplotlib**, incluyendo líneas de promedio salarial para detección de desviaciones.
-- **Reporteo Ejecutivo:** Creación de documentos **PDF** profesionales que integran tablas de datos y visualizaciones gráficas listos para la toma de decisiones.
+## 🌐 Dashboard en Vivo
+Puedes interactuar con la aplicación aquí: 
+👉 [Ver Panel Interactivo en Streamlit](https://consultores-y-salario-xgbo7vuk9svhtpzefzatew.streamlit.app/)
 
-## 🛠️ Tecnologías Utilizadas
-- **Lenguaje:** Python 3.13
-- **Librerías de Datos:** Pandas, Matplotlib
-- **Generación de Documentos:** FPDF
-- **Control de Versiones:** Git & GitHub
+---
 
-## 📂 Estructura del Proyecto
-- `mi_salario.py`: Script de captura y validación de entrada.
-- `ejecutar_proceso.py`: El "Robot" que integra limpieza, gráfica y PDF.
-- `dashboard.py`: Análisis visual y estadístico.
-- `Consultores y Salario/`: Directorio centralizado de la base de datos y entregables.
+## 🛠️ Capacidades del Proyecto
 
-## 📈 Ejemplo de Visualización
-*El sistema genera gráficas automáticas con rotación de etiquetas y alineación profesional para asegurar la legibilidad de cada consultor.*
+El sistema está construido bajo pilares de eficiencia y precisión técnica:
+
+* **ETL & Limpieza de Datos:** Procesamiento masivo con **Pandas** para normalizar nombres, eliminar duplicados y validar integridad financiera.
+* **Visualización Dinámica:** Dashboards interactivos que permiten filtrar por categorías y visualizar comparativas salariales en tiempo real con **Matplotlib**.
+* **Generación de Entregables:** Un "Robot" de automatización que consolida métricas y gráficas en reportes **PDF** profesionales mediante la librería **FPDF**.
+* **Despliegue Cloud:** Implementación en la nube para accesibilidad global, integrando **GitHub** con **Streamlit Cloud**.
+
+## 📂 Estructura del Ecosistema
+* `app_interactiva.py`: El corazón visual del proyecto (Web App).
+* `ejecutar_proceso.py`: Robot de automatización que genera el reporte final PDF.
+* `limpieza_datos.py`: Script de limpieza profunda y normalización con Pandas.
+* `mi_salario.py`: Módulo de captura de datos con validaciones de seguridad.
+
+## 📈 Impacto
+Este proyecto reduce el tiempo de procesamiento de datos de horas a segundos, eliminando el error humano y permitiendo un enfoque en la **planificación financiera estratégica**.
+
+---
+**Desarrollado por Osmar Gutierrez** *Impulsando la Ingeniería Social-Personal Financiera a través de Python.*
